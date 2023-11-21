@@ -20,8 +20,7 @@ pub enum InputEvent {
 }
 
 pub fn run_if_pc() -> bool {
-	false
-    //!["android", "ios"].contains(&std::env::consts::OS)
+	false    
 }
 
 fn is_some_and<T>(opt: Option<T>, cb: impl FnOnce(T) -> bool) -> bool {
